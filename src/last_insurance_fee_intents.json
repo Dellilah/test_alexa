@@ -1,0 +1,27 @@
+{
+  "intents": [ {
+      "intent": "LastInsuranceFee",
+      "slots": [
+        {
+          "name": "Month",
+          "type": "LIST_OF_MONTHS"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

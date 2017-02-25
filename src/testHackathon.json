@@ -1,0 +1,21 @@
+{
+  "intents": [ {
+      "intent": "HackathonTest",
+      "slots": [
+        {
+          "name": "Reindeer"
+          "type": "LIST_OF_REINDEER"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

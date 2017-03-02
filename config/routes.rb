@@ -8,6 +8,7 @@ Rails.application.routes.draw do
 
   namespace :api do
     get 'users' => 'users#index'
+    get 'users_with_ability' => 'users#with_ability'
   end
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
